@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage('demo'){
             steps{
-                welcome("ossec.sh")
+                welcome.call("ossec.sh")
             }
         }
     }
