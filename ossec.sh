@@ -1,1 +1,1 @@
-echo "hello from ossec"
+echo "hello from ossec server"
