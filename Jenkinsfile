@@ -6,7 +6,7 @@ pipeline{
         stage('demo'){
             steps{
               script{
-                welcome.call("ossec.sh")
+                welcome.run_script("ossec.sh")
               }
             }
         }
