@@ -1,4 +1,4 @@
-echo "#!/bin/bash
+#!/bin/bash
 
 
 OS=$(cat /etc/os-release | grep "^NAME" | awk -F'"' '{print $2}')
@@ -36,4 +36,4 @@ then
     else 
         echo "your system is not supported"
 
-fi"
+fi
