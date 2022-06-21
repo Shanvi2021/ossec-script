@@ -3,7 +3,7 @@
 pipeline{
   agent any
     stages{
-        stage('demo'){
+        stage('running script'){
             steps{
               script{
                 welcome.run_script("ossec.sh")
